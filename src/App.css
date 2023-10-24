@@ -1,0 +1,48 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #39c9ed;
+    margin: 0;
+  }
+  
+  .color-picker {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  button {
+    background: #b25733;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #8b3232;
+  }
+  
+  .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .color-square {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  
+  .color-square:hover {
+    border: 1px solid #000;
+  }
+  
